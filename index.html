@@ -2,16 +2,38 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preston's Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script defer src="js/quote.js"></script>
+    <script defer src="js/slideshow.js"></script>
 </head>
 
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <p>This is a simple website hosted with GitHub.</p>
-    <script src="js/script.js"></script>
+    <header>
+        <h1>👑 Welcome to Preston's Magical Portfolio 👑</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="skills.html">My Skills</a>
+            <a href="projects.html">My Projects</a>
+            <a href="contact.html">About Me</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="slideshow-container">
+            <img id="slideshow" src="images/slide1.jpg" alt="Portfolio slideshow" />
+        </section>
+
+        <!-- index.html (before </body>) -->
+        <section id="quote-box">
+            <h2>🌟 Daily Wisdom</h2>
+            <p id="quote">Spinning the scroll of wisdom...</p>
+        </section>
+
+    </main>
+
 </body>
 
 </html>
